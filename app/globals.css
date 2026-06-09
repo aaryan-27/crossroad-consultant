@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-playfair: "Playfair Display", Georgia, serif;
+    --font-inter: "Inter", system-ui, sans-serif;
+  }
+
+  * {
+    @apply border-navy/10;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-cloud text-ink font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    @apply bg-gold/30 text-navy;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+    letter-spacing: -0.01em;
+  }
+
+  /* Custom luxe scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-navy-800;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gold-600/60 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-gold;
+  }
+}
+
+@layer components {
+  /* Eyebrow / kicker label */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-luxe text-gold-600;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-8 bg-gold/60;
+  }
+
+  /* Gold-foil gradient text */
+  .text-gold-foil {
+    @apply bg-gold-gradient bg-clip-text text-transparent;
+  }
+
+  /* Primary luxury button */
+  .btn-gold {
+    @apply relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full
+           bg-gold-gradient px-7 py-3.5 text-sm font-semibold text-navy
+           shadow-gold transition-all duration-300 hover:-translate-y-0.5 hover:shadow-luxe
+           focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/30
+           bg-white/5 px-7 py-3.5 text-sm font-semibold text-white backdrop-blur-sm
+           transition-all duration-300 hover:border-gold hover:bg-white/10 hover:text-gold-200;
+  }
+
+  .btn-navy {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-navy px-7 py-3.5
+           text-sm font-semibold text-white transition-all duration-300
+           hover:-translate-y-0.5 hover:bg-navy-700 hover:shadow-card;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-navy/20
+           px-7 py-3.5 text-sm font-semibold text-navy transition-all duration-300
+           hover:border-gold hover:bg-gold/5 hover:text-gold-700;
+  }
+
+  /* Section wrappers */
+  .section {
+    @apply py-20 md:py-28;
+  }
+
+  .luxe-card {
+    @apply rounded-2xl border border-navy/5 bg-white shadow-card transition-all duration-500
+           hover:-translate-y-1 hover:shadow-luxe;
+  }
+
+  /* Hairline gold divider */
+  .gold-rule {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-gold/50 to-transparent;
+  }
+
+  /* Decorative gold corner brackets */
+  .corner-frame::before,
+  .corner-frame::after {
+    content: "";
+    @apply pointer-events-none absolute h-6 w-6 border-gold/70;
+  }
+  .corner-frame::before {
+    @apply left-3 top-3 border-l border-t;
+  }
+  .corner-frame::after {
+    @apply bottom-3 right-3 border-b border-r;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+  /* Reveal-on-scroll (hooks into IntersectionObserver via .in-view) */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
