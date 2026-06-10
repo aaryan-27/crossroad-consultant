@@ -14,7 +14,11 @@
       "Bash(gh auth *)",
       "Bash(git ls-remote *)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(grep -rnoE \">[A-Z]{2}<|>[A-Z]{2} *$|AGARWAL|MAHADEV|GOPAL|AMRAJ\" app/icon.tsx app/apple-icon.tsx app/opengraph-image.tsx components/ui/Logo.tsx)",
+      "Bash(grep -nE \"AR$|>AR|AI|MP|GE|Agarwal Realtors|Mahadev|Gopal\" app/opengraph-image.tsx)",
+      "Bash(git commit -q -m ' *)",
+      "Bash(echo \"ls-remote exit: $?\")"
     ]
   }
 }

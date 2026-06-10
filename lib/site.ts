@@ -5,36 +5,36 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE = {
-  name: "GOPAL ESTATES Gurgaon Since 2008",
-  legalName: "GOPAL ESTATES Gurgaon Since 2008",
-  tagline: "Your Trusted Partner for Real Estate Investments in Gurgaon",
+  name: "Agarwal Realtors",
+  legalName: "Agarwal Realtors | Property Dealer | Real Estate Consultant Sohna",
+  tagline: "Your Trusted Partner for Real Estate Investments in Sohna & Gurgaon",
   description:
-    "GOPAL ESTATES Gurgaon Since 2008 is the trusted real estate investment consultant for Gurgaon, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
-  url: "https://www.gopalestates.in",
-  phone: "+91 98995 40456",
-  phoneRaw: "919899540456",
-  whatsapp: "919899540456",
-  email: "info@gopalestates.in",
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=GOPAL%20ESTATES%20Gurgaon%20Since%202008&query_place_id=ChIJ-9YBmdIZDTkROJ0hOpIYpp4",
+    "Agarwal Realtors is the trusted property dealer and real estate consultant for Sohna, Gurgaon, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
+  url: "https://www.agarwalrealtors.in",
+  phone: "+91 99910 00585",
+  phoneRaw: "919991000585",
+  whatsapp: "919991000585",
+  email: "info@agarwalrealtors.in",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Agarwal%20Realtors%20%7C%20Property%20Dealer%20%7C%20Real%20Estate%20Consultant%20Sohna&query_place_id=ChIJYdqVklIkDTkRDoOlaLREz98",
   mapsEmbed:
-    "https://www.google.com/maps?q=GOPAL+ESTATES+Gurgaon+Sector+6&output=embed",
+    "https://www.google.com/maps?q=Agarwal+Realtors+Sohna+Gurugram&output=embed",
   // Approximate — verify against your Google Business Profile pin.
-  geo: { lat: 28.4595, lng: 77.0266 },
+  geo: { lat: 28.3497, lng: 77.0653 },
   address: {
-    street: "229/11 Link Road, More, near new colony, Bhim Nagar",
-    locality: "Sector 6",
+    street: "Badshahpur Sohna Rd, next to Central Park Flower Valley, Dhunela",
+    locality: "Sohna",
     region: "Gurugram, Haryana",
-    postalCode: "122001",
+    postalCode: "122103",
     country: "IN",
-    full: "229/11 Link Road, More, near new colony, Bhim Nagar, Sector 6, Gurugram, Haryana 122001, India",
+    full: "Badshahpur Sohna Rd, next to Central Park Flower Valley, Dhunela, Sohna, Haryana 122103, India",
   },
   hours: "Mon–Sun · 9:30 AM – 8:00 PM",
   founded: "2008",
   social: {
-    instagram: "https://instagram.com/gopalestates",
-    facebook: "https://facebook.com/gopalestates",
-    youtube: "https://youtube.com/@gopalestates",
-    linkedin: "https://linkedin.com/company/gopalestates",
+    instagram: "https://instagram.com/agarwalrealtors",
+    facebook: "https://facebook.com/agarwalrealtors",
+    youtube: "https://youtube.com/@agarwalrealtors",
+    linkedin: "https://linkedin.com/company/agarwalrealtors",
   },
 } as const;
 
@@ -94,7 +94,7 @@ export const NAV_LINKS = [
 export function waLink(message?: string) {
   const text = encodeURIComponent(
     message ??
-      "Hi GOPAL ESTATES, I'd like to know more about investment opportunities in Gurgaon."
+      "Hi Agarwal Realtors, I'd like to know more about investment opportunities in Gurgaon."
   );
   return `https://wa.me/${SITE.whatsapp}?text=${text}`;
 }

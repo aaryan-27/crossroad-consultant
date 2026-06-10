@@ -1,6 +1,6 @@
-# GOPAL ESTATES Gurgaon Since 2008 — Luxury Real Estate Advisory
+# Agarwal Realtors — Luxury Real Estate Advisory
 
-A premium, conversion-optimised, SEO-first website for **GOPAL ESTATES Gurgaon Since 2008**, positioning the company as the most trusted real estate investment consultant for Gurgaon, New Gurgaon, Dwarka Expressway and Delhi NCR.
+A premium, conversion-optimised, SEO-first website for **Agarwal Realtors**, positioning the company as the most trusted real estate investment consultant for Gurgaon, New Gurgaon, Dwarka Expressway and Delhi NCR.
 
 Built with **Next.js 15 (App Router) · TypeScript · Tailwind CSS · Framer Motion**.
 

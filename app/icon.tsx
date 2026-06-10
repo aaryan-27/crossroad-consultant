@@ -21,7 +21,7 @@ export default function Icon() {
           borderRadius: 12,
         }}
       >
-        GE
+        AR
       </div>
     ),
     { ...size }

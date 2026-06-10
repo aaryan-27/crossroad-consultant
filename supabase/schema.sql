@@ -1,5 +1,5 @@
 -- ─────────────────────────────────────────────────────────────
--- GOPAL ESTATES Gurgaon Since 2008 — Supabase schema for lead capture
+-- Agarwal Realtors — Supabase schema for lead capture
 -- Run in the Supabase SQL editor (Project → SQL → New query)
 -- ─────────────────────────────────────────────────────────────
 
