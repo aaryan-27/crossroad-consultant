@@ -35,11 +35,11 @@ export default function OpengraphImage() {
               fontWeight: 800,
             }}
           >
-            AR
+            SH
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 30, color: "#FFFFFF", fontWeight: 700 }}>
-              Agarwal Realtors
+              S H Realty
             </div>
             <div style={{ fontSize: 16, color: "#9FB3D1", letterSpacing: 4 }}>
               REAL ESTATE ADVISORY

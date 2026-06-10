@@ -5,36 +5,36 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE = {
-  name: "Agarwal Realtors",
-  legalName: "Agarwal Realtors | Property Dealer | Real Estate Consultant Sohna",
-  tagline: "Your Trusted Partner for Real Estate Investments in Sohna & Gurgaon",
+  name: "S H Realty",
+  legalName: "S H Realty | Property Dealer | Real Estate Consultant Gurugram",
+  tagline: "Your Trusted Partner for Real Estate Investments in Gurgaon",
   description:
-    "Agarwal Realtors is the trusted property dealer and real estate consultant for Sohna, Gurgaon, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
-  url: "https://www.agarwalrealtors.in",
-  phone: "+91 99910 00585",
-  phoneRaw: "919991000585",
-  whatsapp: "919991000585",
-  email: "info@agarwalrealtors.in",
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Agarwal%20Realtors%20%7C%20Property%20Dealer%20%7C%20Real%20Estate%20Consultant%20Sohna&query_place_id=ChIJYdqVklIkDTkRDoOlaLREz98",
+    "S H Realty is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
+  url: "https://www.shrealty.in",
+  phone: "+91 72177 95932",
+  phoneRaw: "917217795932",
+  whatsapp: "917217795932",
+  email: "info@shrealty.in",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=S%20H%20Realty&query_place_id=ChIJgUd8FYcXDTkRpm234MKt_Y4",
   mapsEmbed:
-    "https://www.google.com/maps?q=Agarwal+Realtors+Sohna+Gurugram&output=embed",
+    "https://www.google.com/maps?q=S+H+Realty+Sector+106+Gurugram&output=embed",
   // Approximate — verify against your Google Business Profile pin.
-  geo: { lat: 28.3497, lng: 77.0653 },
+  geo: { lat: 28.4268, lng: 76.9816 },
   address: {
-    street: "Badshahpur Sohna Rd, next to Central Park Flower Valley, Dhunela",
-    locality: "Sohna",
+    street: "Flat no A4-303, plaza at106, Wtc plaza, Northern Peripheral Rd",
+    locality: "Sector 106, Gurugram",
     region: "Gurugram, Haryana",
-    postalCode: "122103",
+    postalCode: "122006",
     country: "IN",
-    full: "Badshahpur Sohna Rd, next to Central Park Flower Valley, Dhunela, Sohna, Haryana 122103, India",
+    full: "Flat no A4-303, plaza at106, Wtc plaza, Northern Peripheral Rd, Sector 106, Gurugram, Haryana 122006, India",
   },
   hours: "Mon–Sun · 9:30 AM – 8:00 PM",
   founded: "2008",
   social: {
-    instagram: "https://instagram.com/agarwalrealtors",
-    facebook: "https://facebook.com/agarwalrealtors",
-    youtube: "https://youtube.com/@agarwalrealtors",
-    linkedin: "https://linkedin.com/company/agarwalrealtors",
+    instagram: "https://instagram.com/shrealty",
+    facebook: "https://facebook.com/shrealty",
+    youtube: "https://youtube.com/@shrealty",
+    linkedin: "https://linkedin.com/company/shrealty",
   },
 } as const;
 
@@ -94,7 +94,7 @@ export const NAV_LINKS = [
 export function waLink(message?: string) {
   const text = encodeURIComponent(
     message ??
-      "Hi Agarwal Realtors, I'd like to know more about investment opportunities in Gurgaon."
+      "Hi S H Realty, I'd like to know more about investment opportunities in Gurgaon."
   );
   return `https://wa.me/${SITE.whatsapp}?text=${text}`;
 }
