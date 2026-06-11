@@ -35,11 +35,11 @@ export default function OpengraphImage() {
               fontWeight: 800,
             }}
           >
-            CC
+            GP
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 30, color: "#FFFFFF", fontWeight: 700 }}>
-              Evergreen Real Estate
+              Gorwal Properties &amp; Developers
             </div>
             <div style={{ fontSize: 16, color: "#9FB3D1", letterSpacing: 4 }}>
               REAL ESTATE ADVISORY

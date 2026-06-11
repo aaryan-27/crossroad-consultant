@@ -192,7 +192,7 @@ export function LeadForm({
         {isSubmitting ? "Submitting…" : cta}
       </button>
       <p className={cn("text-center text-[11px]", dark ? "text-white/40" : "text-ink/40")}>
-        By submitting, you agree to be contacted by Evergreen Real Estate. Your data is
+        By submitting, you agree to be contacted by Gorwal Properties &amp; Developers. Your data is
         secure &amp; never shared.
       </p>
     </form>

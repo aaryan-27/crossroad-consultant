@@ -5,36 +5,36 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE = {
-  name: "Evergreen Real Estate",
-  legalName: "Evergreen Real Estate | Property Dealer | Real Estate Consultant Gurugram",
+  name: "Gorwal Properties & Developers",
+  legalName: "Gorwal Properties & Developers | Property Dealer | Real Estate Consultant Gurugram",
   tagline: "Your Trusted Partner for Real Estate Investments in Gurgaon",
   description:
-    "Evergreen Real Estate is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
-  url: "https://www.evergreenrealestate.in",
-  phone: "+91 96711 95544",
-  phoneRaw: "919671195544",
-  whatsapp: "919671195544",
-  email: "info@evergreenrealestate.in",
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Evergreen%20Real%20Estate%20The%20westin%20Vatika%20Sohna%20Karanki&query_place_id=ChIJozjps20pDTkRbunfm45O_-k",
+    "Gorwal Properties & Developers is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
+  url: "https://www.gorwalproperties.in",
+  phone: "+91 98126 90197",
+  phoneRaw: "919812690197",
+  whatsapp: "919812690197",
+  email: "info@gorwalproperties.in",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Gorwal%20Properties%20%26%20Developers&query_place_id=ChIJXRZaaoQlDTkRrnnd2eHL3BM",
   mapsEmbed:
-    "https://www.google.com/maps/embed/v1/place?key=AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY&q=place_id:ChIJozjps20pDTkRbunfm45O_-k",
+    "https://www.google.com/maps/embed/v1/place?key=AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY&q=place_id:ChIJXRZaaoQlDTkRrnnd2eHL3BM",
   // Approximate — verify against your Google Business Profile pin.
   geo: { lat: 28.2382, lng: 77.0192 },
   address: {
-    street: "The Westin Vatika Sohna Karanki Resort & Spa, The Westin",
-    locality: "Sohna, Karnki",
+    street: "B-501, Near Westin Resort, Dhaula",
+    locality: "Sohna",
     region: "Haryana",
     postalCode: "122103",
     country: "IN",
-    full: "The Westin Vatika Sohna Karanki Resort & Spa, The Westin, Sohna, Karnki, Haryana 122103, India",
+    full: "B-501, Near Westin Resort, Dhaula, Sohna, Gurgoan, Haryana 122103, India",
   },
   hours: "Mon–Sun · 9:30 AM – 8:00 PM",
   founded: "2008",
   social: {
-    instagram: "https://instagram.com/evergreenrealestate",
-    facebook: "https://facebook.com/evergreenrealestate",
-    youtube: "https://youtube.com/@evergreenrealestate",
-    linkedin: "https://linkedin.com/company/evergreenrealestate",
+    instagram: "https://instagram.com/gorwalproperties",
+    facebook: "https://facebook.com/gorwalproperties",
+    youtube: "https://youtube.com/@gorwalproperties",
+    linkedin: "https://linkedin.com/company/gorwalproperties",
   },
 } as const;
 
@@ -94,7 +94,7 @@ export const NAV_LINKS = [
 export function waLink(message?: string) {
   const text = encodeURIComponent(
     message ??
-      "Hi Evergreen Real Estate, I'd like to know more about investment opportunities in Gurgaon."
+      "Hi Gorwal Properties & Developers, I'd like to know more about investment opportunities in Gurgaon."
   );
   return `https://wa.me/${SITE.whatsapp}?text=${text}`;
 }
