@@ -5,36 +5,36 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE = {
-  name: "Gorwal Properties & Developers",
-  legalName: "Gorwal Properties & Developers | Property Dealer | Real Estate Consultant Gurugram",
+  name: "Y3 REALTY",
+  legalName: "Y3 REALTY | Property Dealer | Real Estate Consultant Gurugram",
   tagline: "Your Trusted Partner for Real Estate Investments in Gurgaon",
   description:
-    "Gorwal Properties & Developers is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
-  url: "https://www.gorwalproperties.in",
-  phone: "+91 98126 90197",
-  phoneRaw: "919812690197",
-  whatsapp: "919812690197",
-  email: "info@gorwalproperties.in",
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Gorwal%20Properties%20%26%20Developers&query_place_id=ChIJXRZaaoQlDTkRrnnd2eHL3BM",
+    "Y3 REALTY is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
+  url: "https://www.y3realty.in",
+  phone: "+91 99904 74367",
+  phoneRaw: "919990474367",
+  whatsapp: "919990474367",
+  email: "info@y3realty.in",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Y3%20REALTY&query_place_id=ChIJ-xdP5Xo_DTkR8TLF2LPGAFg",
   mapsEmbed:
-    "https://www.google.com/maps/embed/v1/place?key=AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY&q=place_id:ChIJXRZaaoQlDTkRrnnd2eHL3BM",
+    "https://www.google.com/maps/embed/v1/place?key=AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY&q=place_id:ChIJ-xdP5Xo_DTkR8TLF2LPGAFg",
   // Approximate — verify against your Google Business Profile pin.
-  geo: { lat: 28.2382, lng: 77.0192 },
+  geo: { lat: 28.4037, lng: 76.9993 },
   address: {
-    street: "B-501, Near Westin Resort, Dhaula",
-    locality: "Sohna",
+    street: "E7/58, E Block, Dlf Gardencity",
+    locality: "Sector 92, Gurugram",
     region: "Haryana",
-    postalCode: "122103",
+    postalCode: "122505",
     country: "IN",
-    full: "B-501, Near Westin Resort, Dhaula, Sohna, Gurgoan, Haryana 122103, India",
+    full: "E7/58, E Block, Dlf Gardencity, Sector 92, Gurugram, Haryana 122505, India",
   },
   hours: "Mon–Sun · 9:30 AM – 8:00 PM",
   founded: "2008",
   social: {
-    instagram: "https://instagram.com/gorwalproperties",
-    facebook: "https://facebook.com/gorwalproperties",
-    youtube: "https://youtube.com/@gorwalproperties",
-    linkedin: "https://linkedin.com/company/gorwalproperties",
+    instagram: "https://instagram.com/y3realty",
+    facebook: "https://facebook.com/y3realty",
+    youtube: "https://youtube.com/@y3realty",
+    linkedin: "https://linkedin.com/company/y3realty",
   },
 } as const;
 
@@ -94,7 +94,7 @@ export const NAV_LINKS = [
 export function waLink(message?: string) {
   const text = encodeURIComponent(
     message ??
-      "Hi Gorwal Properties & Developers, I'd like to know more about investment opportunities in Gurgaon."
+      "Hi Y3 REALTY, I'd like to know more about investment opportunities in Gurgaon."
   );
   return `https://wa.me/${SITE.whatsapp}?text=${text}`;
 }
