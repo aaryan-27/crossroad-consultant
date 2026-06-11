@@ -5,36 +5,36 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE = {
-  name: "Skyline Realtors",
-  legalName: "Skyline Realtors | Property Dealer | Real Estate Consultant Gurugram",
+  name: "Evergreen Real Estate",
+  legalName: "Evergreen Real Estate | Property Dealer | Real Estate Consultant Gurugram",
   tagline: "Your Trusted Partner for Real Estate Investments in Gurgaon",
   description:
-    "Skyline Realtors is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
-  url: "https://www.skylinerealtors.in",
-  phone: "+91 98996 27867",
-  phoneRaw: "919899627867",
-  whatsapp: "919899627867",
-  email: "info@skylinerealtors.in",
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Skyline%20Realtors&query_place_id=ChIJAdE29asZDTkRBoHIf_jPk9g",
+    "Evergreen Real Estate is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
+  url: "https://www.evergreenrealestate.in",
+  phone: "+91 96711 95544",
+  phoneRaw: "919671195544",
+  whatsapp: "919671195544",
+  email: "info@evergreenrealestate.in",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Evergreen%20Real%20Estate%20The%20westin%20Vatika%20Sohna%20Karanki&query_place_id=ChIJozjps20pDTkRbunfm45O_-k",
   mapsEmbed:
-    "https://www.google.com/maps?q=Skyline+Realtors+Sector+22+Gurugram&output=embed",
+    "https://www.google.com/maps/embed/v1/place?key=AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY&q=place_id:ChIJozjps20pDTkRbunfm45O_-k",
   // Approximate — verify against your Google Business Profile pin.
-  geo: { lat: 28.4897, lng: 76.9822 },
+  geo: { lat: 28.2382, lng: 77.0192 },
   address: {
-    street: "Shop No. 121, HUDA Market, opposite Rotary Public School, Mullahera",
-    locality: "Sector 22, Gurugram",
-    region: "Gurugram, Haryana",
-    postalCode: "122015",
+    street: "The Westin Vatika Sohna Karanki Resort & Spa, The Westin",
+    locality: "Sohna, Karnki",
+    region: "Haryana",
+    postalCode: "122103",
     country: "IN",
-    full: "Shop No. 121, HUDA Market, opposite Rotary Public School, Mullahera, Sector 22, Gurugram, Haryana 122015, India",
+    full: "The Westin Vatika Sohna Karanki Resort & Spa, The Westin, Sohna, Karnki, Haryana 122103, India",
   },
   hours: "Mon–Sun · 9:30 AM – 8:00 PM",
   founded: "2008",
   social: {
-    instagram: "https://instagram.com/skylinerealtors",
-    facebook: "https://facebook.com/skylinerealtors",
-    youtube: "https://youtube.com/@skylinerealtors",
-    linkedin: "https://linkedin.com/company/skylinerealtors",
+    instagram: "https://instagram.com/evergreenrealestate",
+    facebook: "https://facebook.com/evergreenrealestate",
+    youtube: "https://youtube.com/@evergreenrealestate",
+    linkedin: "https://linkedin.com/company/evergreenrealestate",
   },
 } as const;
 
@@ -94,7 +94,7 @@ export const NAV_LINKS = [
 export function waLink(message?: string) {
   const text = encodeURIComponent(
     message ??
-      "Hi Skyline Realtors, I'd like to know more about investment opportunities in Gurgaon."
+      "Hi Evergreen Real Estate, I'd like to know more about investment opportunities in Gurgaon."
   );
   return `https://wa.me/${SITE.whatsapp}?text=${text}`;
 }
