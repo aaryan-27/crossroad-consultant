@@ -40,7 +40,7 @@ export async function generateMetadata({
   if (!project) return { title: "Project Not Found" };
   return {
     title: `${project.name} by ${project.builder} — ${project.location}`,
-    description: `${project.name}: ${project.type} in ${project.location}. ${project.about.slice(0, 120)}… Price from ${formatINR(project.priceFrom)}. Book a site visit with Y3 REALTY.`,
+    description: `${project.name}: ${project.type} in ${project.location}. ${project.about.slice(0, 120)}… Price from ${formatINR(project.priceFrom)}. Book a site visit with Singla Estate.`,
     alternates: { canonical: `/projects/${project.slug}` },
     openGraph: { images: [project.heroImage] },
   };

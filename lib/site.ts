@@ -5,36 +5,36 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE = {
-  name: "Y3 REALTY",
-  legalName: "Y3 REALTY | Property Dealer | Real Estate Consultant Gurugram",
+  name: "Singla Estate",
+  legalName: "Singla Estate | Property Dealer | Real Estate Consultant Gurugram",
   tagline: "Your Trusted Partner for Real Estate Investments in Gurgaon",
   description:
-    "Y3 REALTY is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
-  url: "https://www.y3realty.in",
-  phone: "+91 99904 74367",
-  phoneRaw: "919990474367",
-  whatsapp: "919990474367",
-  email: "info@y3realty.in",
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Y3%20REALTY&query_place_id=ChIJ-xdP5Xo_DTkR8TLF2LPGAFg",
+    "Singla Estate is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
+  url: "https://www.singlaestate.in",
+  phone: "+91 99919 35935",
+  phoneRaw: "919991935935",
+  whatsapp: "919991935935",
+  email: "info@singlaestate.in",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Singla%20Estate&query_place_id=ChIJh-GwPPklDTkRaoSxme8UtIw",
   mapsEmbed:
-    "https://www.google.com/maps/embed/v1/place?key=AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY&q=place_id:ChIJ-xdP5Xo_DTkR8TLF2LPGAFg",
+    "https://www.google.com/maps/embed/v1/place?key=AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY&q=place_id:ChIJh-GwPPklDTkRaoSxme8UtIw",
   // Approximate — verify against your Google Business Profile pin.
-  geo: { lat: 28.4037, lng: 76.9993 },
+  geo: { lat: 28.2490, lng: 77.0154 },
   address: {
-    street: "E7/58, E Block, Dlf Gardencity",
-    locality: "Sector 92, Gurugram",
+    street: "Suryansh Hotel Sector-33, Badshahpur Sohna Rd, near Central Park Flower Valley",
+    locality: "Sohna, Gurugram",
     region: "Haryana",
-    postalCode: "122505",
+    postalCode: "122103",
     country: "IN",
-    full: "E7/58, E Block, Dlf Gardencity, Sector 92, Gurugram, Haryana 122505, India",
+    full: "Suryansh Hotel Sector-33, Badshahpur Sohna Rd, near Central Park Flower Valley, Sohna, Haryana 122103, India",
   },
   hours: "Mon–Sun · 9:30 AM – 8:00 PM",
   founded: "2008",
   social: {
-    instagram: "https://instagram.com/y3realty",
-    facebook: "https://facebook.com/y3realty",
-    youtube: "https://youtube.com/@y3realty",
-    linkedin: "https://linkedin.com/company/y3realty",
+    instagram: "https://instagram.com/singlaestate",
+    facebook: "https://facebook.com/singlaestate",
+    youtube: "https://youtube.com/@singlaestate",
+    linkedin: "https://linkedin.com/company/singlaestate",
   },
 } as const;
 
@@ -94,7 +94,7 @@ export const NAV_LINKS = [
 export function waLink(message?: string) {
   const text = encodeURIComponent(
     message ??
-      "Hi Y3 REALTY, I'd like to know more about investment opportunities in Gurgaon."
+      "Hi Singla Estate, I'd like to know more about investment opportunities in Gurgaon."
   );
   return `https://wa.me/${SITE.whatsapp}?text=${text}`;
 }
