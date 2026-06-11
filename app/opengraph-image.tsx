@@ -39,7 +39,7 @@ export default function OpengraphImage() {
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 30, color: "#FFFFFF", fontWeight: 700 }}>
-              Crossroad Consultant Inc
+              Shagun Real Estate
             </div>
             <div style={{ fontSize: 16, color: "#9FB3D1", letterSpacing: 4 }}>
               REAL ESTATE ADVISORY

@@ -5,36 +5,36 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE = {
-  name: "Crossroad Consultant Inc",
-  legalName: "Crossroad Consultant Inc | Property Dealer | Real Estate Consultant Gurugram",
+  name: "Shagun Real Estate",
+  legalName: "Shagun Real Estate | Property Dealer | Real Estate Consultant Gurugram",
   tagline: "Your Trusted Partner for Real Estate Investments in Gurgaon",
   description:
-    "Crossroad Consultant Inc is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
-  url: "https://www.crossroadconsultant.in",
-  phone: "+91 98112 09192",
-  phoneRaw: "919811209192",
-  whatsapp: "919811209192",
-  email: "info@crossroadconsultant.in",
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Crossroad%20Consultant%20Inc&query_place_id=ChIJK2bKeQAjDTkRVTFwpf7LTkI",
+    "Shagun Real Estate is the trusted property dealer and real estate consultant for Gurugram, New Gurgaon, Dwarka Expressway & Delhi NCR. Explore luxury apartments, commercial spaces, SCO plots and high-growth investment opportunities with expert guidance.",
+  url: "https://www.shagunrealestate.in",
+  phone: "+91 88001 15214",
+  phoneRaw: "918800115214",
+  whatsapp: "918800115214",
+  email: "info@shagunrealestate.in",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Shagun%20Real%20Estate&query_place_id=ChIJs3ogqjgXDTkRCrp_gBxTul8",
   mapsEmbed:
-    "https://www.google.com/maps?q=Crossroad+Consultant+Inc+Sector+49+Gurugram&output=embed",
+    "https://www.google.com/maps?q=Shagun+Real+Estate+Sector+102+Gurugram&output=embed",
   // Approximate — verify against your Google Business Profile pin.
-  geo: { lat: 28.4295, lng: 77.0385 },
+  geo: { lat: 28.4897, lng: 76.9822 },
   address: {
-    street: "63, Ground Floor, Block D, South City II",
-    locality: "Sector 49, Gurugram",
+    street: "ROF aalayas, 75meter road, Northern Peripheral Rd",
+    locality: "Sector 102, Gurugram",
     region: "Gurugram, Haryana",
-    postalCode: "122018",
+    postalCode: "122505",
     country: "IN",
-    full: "63, Ground Floor, Block D, South City II, Sector 49, Gurugram, Haryana 122018, India",
+    full: "ROF aalayas, 75meter road, Northern Peripheral Rd, Sector 102, Gurugram, Haryana 122505, India",
   },
   hours: "Mon–Sun · 9:30 AM – 8:00 PM",
   founded: "2008",
   social: {
-    instagram: "https://instagram.com/crossroadconsultant",
-    facebook: "https://facebook.com/crossroadconsultant",
-    youtube: "https://youtube.com/@crossroadconsultant",
-    linkedin: "https://linkedin.com/company/crossroadconsultant",
+    instagram: "https://instagram.com/shagunrealestate",
+    facebook: "https://facebook.com/shagunrealestate",
+    youtube: "https://youtube.com/@shagunrealestate",
+    linkedin: "https://linkedin.com/company/shagunrealestate",
   },
 } as const;
 
@@ -94,7 +94,7 @@ export const NAV_LINKS = [
 export function waLink(message?: string) {
   const text = encodeURIComponent(
     message ??
-      "Hi Crossroad Consultant Inc, I'd like to know more about investment opportunities in Gurgaon."
+      "Hi Shagun Real Estate, I'd like to know more about investment opportunities in Gurgaon."
   );
   return `https://wa.me/${SITE.whatsapp}?text=${text}`;
 }
